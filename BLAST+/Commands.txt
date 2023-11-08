@@ -1,0 +1,10 @@
+
+Search against pdbaa:
+
+blastp -query 6KYED_original.fasta -db pdbaa -out 6KYE_torppa90_output.txt -matrix BLOSUM90 -gapopen 10 -gapextend 1 -word_size 2 -max_target_seqs 5000
+
+
+Search against 3RGK_A:
+
+blastp -query 6KYED_original.fasta -subject 3RGKA_original.fasta -out 6KYE_vs_3RGK_torppa90_output.txt -matrix BLOSUM90 -gapopen 10 -gapextend 1 -word_size 2
+

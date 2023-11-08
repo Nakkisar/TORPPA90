@@ -1,0 +1,77 @@
+BLASTP 2.14.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: User specified sequence set (Input:
+/mnt/d/BioinfoHons/PROJECT/SeqPredNN/predictions/pair2/original_sequ
+ences/3RGKA_original.fasta).
+           1 sequences; 149 total letters
+
+
+
+Query= 6KYE|Chain D|SeqPredNN original PDB sequence
+
+Length=146
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+3RGK|Chain A|SeqPredNN original PDB sequence                          40.6    3e-09
+
+
+> 3RGK|Chain A|SeqPredNN original PDB sequence
+Length=149
+
+ Score = 40.6 bits (88),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 37/145 (26%), Positives = 58/145 (40%), Gaps = 2/145 (1%)
+
+Query  3    LTPEEKSAVTALWGKVNVDEVG--GEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKV  60
+            L+  E   V   WGKV  D  G   E L RL+  +P T + F+ F  L + D        
+Sbjct  2    LSDGEWQLVLNVWGKVEADIPGHGQEVLIRLFKGHPETLEKFDRFKHLKSEDEMKASEDL  61
+
+Query  61   KAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK  120
+            K HG  VL A+   L    + +     L + H+ K  +  + ++++   ++ VL      
+Sbjct  62   KKHGATVLTALGGILKKKGHHEAEIKPLAQSHATKHKIPVKYLEFISEAIIQVLQSKHPG  121
+
+Query  121  EFTPPVQAAYQKVVAGVANALAHKY  145
+            +F    Q A  K        +A  Y
+Sbjct  122  DFGADAQGAMNKALELFRKDMASNY  146
+
+
+
+Lambda      K        H        a         alpha
+   0.383    0.135    0.384    0.443     1.38 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.290   0.0750    0.280     1.04     11.5     12.3 
+
+Effective search space used: 18904
+
+
+  Database: User specified sequence set (Input:
+/mnt/d/BioinfoHons/PROJECT/SeqPredNN/predictions/pair2/original_sequ
+ences/3RGKA_original.fasta).
+    Posted date:  Unknown
+  Number of letters in database: 149
+  Number of sequences in database:  1
+
+
+
+Matrix: BLOSUM90
+Gap Penalties: Existence: 10, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

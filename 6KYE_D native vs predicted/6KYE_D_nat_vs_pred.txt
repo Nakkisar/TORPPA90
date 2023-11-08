@@ -1,0 +1,16 @@
+Native and prediction equal length:  True
+
+6KYE chain D:
+ 
+Native sequence:  VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH 
+SeqPredNN prediction:  LKLSPEDRGTFKAFLKKLDWEHLGGTAAGAFAAAFPWCLKFHPWWGDIETPEDFMSCPELAAEGREAVKEILYFLAHPDNPEEAFKEECEKEVEKCCVHPELALYLALIMLMAEANKYGEEASPEEIAALMLIYGTIAKGMMKCQC
+Percentage Similarity, native sequence vs SeqPredNN prediction: 26.71%
+
+TORPPA90 alignment score, native vs seqpred prediction:  157.29000000000008
+TORPPA90 alignment score, native vs native:  609.2799999999996
+
+BLOSUM90 alignment score, native vs seqpred prediction:  118
+BLOSUM90 alignment score, native vs native:  899
+
+BLOSUM62 alignment score, native vs seqpred prediction:  164
+BLOSUM62 alignment score, native vs native:  775

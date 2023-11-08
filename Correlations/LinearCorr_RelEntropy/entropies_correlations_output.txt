@@ -1,0 +1,16 @@
+----------------------------------------------------
+Relative entropies:
+
+TORPPA90 vs BLOSUM62:  0.14843132550299182
+
+TORPPA90 vs BLOSUM90:  0.16278093269131375
+
+BLOSUM90 vs BLOSUM62:  0.027739691936431457
+----------------------------------------------------
+Linear correlations:
+
+TORPPA90 vs BLOSUM62:  0.7156702643084362
+
+TORPPA90 vs BLOSUM90:  0.710450751022736
+
+BLOSUM90 vs BLOSUM62:  0.9787035877865725
