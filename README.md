@@ -5,4 +5,6 @@ TORPPA90 is a substitution matrix applicable for use in BLASTP searches. Values 
 
 This substitution matrix is asymmetrical and reflects inequality of forward and reverse substitutions with respect to the maintenance of local 3D structures within protein sequences.
 
+BLAST+ source files are available here: https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/ncbi-blast-2.15.0+-src.tar.gz
+
 BLAST+ pdbaa searches were performed using the preformatted database available here: https://ftp.ncbi.nlm.nih.gov/blast/db/pdbaa.tar.gz
